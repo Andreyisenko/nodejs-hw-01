@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "get-all": "node src/scripts/getAllContacts",
+    "start": "node src/index.js",
     "generate": "node src/scripts/generateContacts.js",
     "add-one": "node src/scripts/addOneContact.js",
     "count": "node src/scripts/countContacts.js",
@@ -17,7 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.2.0",
+    "@faker-js/faker": "^9.6.0",
     "eslint": "^9.2.0",
-    "globals": "^15.1.0"
+    "globa ls": "^15.1.0"
   }
 }
